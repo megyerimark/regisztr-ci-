@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Staatliches&display=swap');
 
+body *{
+    box-sizing: border-box;
+}
 body{
     margin:0;
     font-family: 'Oswald', sans-serif;
@@ -117,18 +120,9 @@ font-family: 'Staatliches', cursive;
     width: 100%;
     height: auto;
 }
-}
-@media only screen and (max-width:300px)
-{
-.main-login{
-    flex-direction:column ;
-}
-.left-login>h1{
-    display: none;
-}
-.right-login{
-    width: 100%;
-    height: auto;
-}
+.a{
+    width: 0vw;
 }
 
+
+}
