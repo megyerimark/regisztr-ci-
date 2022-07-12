@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Staatliches&display=swap');
+
 body{
     margin:0;
+    font-family: 'Oswald', sans-serif;
+font-family: 'Staatliches', cursive;
 }
 .main-login{
     width: 100vw;
@@ -18,8 +23,13 @@ body{
     flex-direction: column;
 }
 .left-login > h1{
+    font-size: 3vw;
     color: #77ffc0;
 
+}
+.a{
+
+    width: 35vw;
 }
 .right-login{
     width: 50vw;
@@ -46,10 +56,12 @@ body{
 
 }
 .textfield{
+    width: 100%;
     display: flex;  
     flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin: 10px;
 }
 .textfield>input{
     width: 100%;
@@ -60,4 +72,29 @@ body{
     color: #f0ffffde;
     font-size: 12pt;
     box-shadow: 0px -10px 40px #00000056;;
+    box-sizing: border-box;
 }
+
+.textfield>label{
+    color:#f0ffffde;
+    margin-bottom: 10px;
+}
+.textfield>input::placeholder{
+    color: #f0ffffde;
+}
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 20px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #2b134b;
+    background: #77ffc0;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    
+}
+
