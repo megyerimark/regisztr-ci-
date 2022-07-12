@@ -98,3 +98,37 @@ font-family: 'Staatliches', cursive;
     
 }
 
+@media only screen and (max-width:950px){
+    .card-login{
+        width: 85%;
+    }
+
+    
+}
+@media only screen and (max-width:600px)
+{
+.main-login{
+    flex-direction:column ;
+}
+.left-login>h1{
+    display: none;
+}
+.right-login{
+    width: 100%;
+    height: auto;
+}
+}
+@media only screen and (max-width:300px)
+{
+.main-login{
+    flex-direction:column ;
+}
+.left-login>h1{
+    display: none;
+}
+.right-login{
+    width: 100%;
+    height: auto;
+}
+}
+
